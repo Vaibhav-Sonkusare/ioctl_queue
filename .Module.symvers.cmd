@@ -1,0 +1,1 @@
+cmd_/home/vaibhav/tmp/kernel/ioctl_queue_2/Module.symvers :=  sed 's/ko$$/o/'  /home/vaibhav/tmp/kernel/ioctl_queue_2/modules.order | scripts/mod/modpost -m      -o /home/vaibhav/tmp/kernel/ioctl_queue_2/Module.symvers -e -i Module.symvers -T - 
